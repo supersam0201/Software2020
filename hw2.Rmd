@@ -12,25 +12,25 @@ knitr::opts_chunk$set(echo = TRUE)
 # Problem 1: Summarize the Iris dataset 
 
 ```{r}
-x<-str(iris)
-summary(x)
+str(iris)
+summary(iris)
 ```
 
 # Problem 2:
 
 The sample median of the variable Petail.With is  
 ```{r}
-median(x['Petal.Width'])
+median(iris$Petal.Width)
 ```
 
 
 # Problem 3: Draw a histograms of the Sepal.Length variable
 
 ```{r}
-hist(x['Sepal.Width'])
+hist(iris$Sepal.Length)
 ```
 
 # Problem 4: Draw a scatter plot 
 ```{r}
-scatter(x)
+plot(iris)
 ```
